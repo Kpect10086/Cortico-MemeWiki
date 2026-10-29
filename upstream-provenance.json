@@ -1,0 +1,30 @@
+{
+  "originalAuthor": "in1t1a1",
+  "originalRepository": "https://github.com/in1t1a1/astrbot_plugin_memewiki",
+  "upstreamVersion": "1.6.0",
+  "portMaintainer": "Kpect10086",
+  "portVersion": "1.6.0-cortico.1",
+  "official": false,
+  "certification": "not claimed",
+  "upstream": {
+    "commit": "e39f922eb3166e1045ec5c86538ac424b6e2d26b",
+    "files": {
+      ".astrbot-plugin/i18n/zh-CN.json": "c5950fd97a422295630851b8fe653b4a69027ae8e3555d932692e8d40b571529",
+      ".gitignore": "71c44066c0f108b80c5a731e02c7de9f6445dfc8cd767dcb9c1eb9f1f0b9d079",
+      "CHANGELOG.md": "72e39f3f74af48fc79ac641c35b9a69cb36da0cba85e84b8af7041e49d6825aa",
+      "LICENSE": "a73a1a51c5c4c9569fe38463137e17664e16ace94a10295a91a2b0f1f67d5425",
+      "README.md": "a0632eb443c6e2e080714d2c6bd1347bfd9113c13087f107fb4c0aa81ab8fb44",
+      "_conf_schema.json": "a729b5afc0ae02704e4da37a4d213d1582f8efb81b05e8bb586c32da61bef408",
+      "data/memes.db": "05d902ff642dbb894fe2fa61b7623ca9c094cc2e6d26d2f818986296cdacdef3",
+      "docs/preview.png": "c119effe5085c1a0b4b06bb8295a088d9e983b067a799127def3b8d43eb3835c",
+      "logo.png": "4d6970fa5bfcfc0024eb80e97b9aaa41c452f1a155cd6e297a3a839ddf062669",
+      "main.py": "da7495ffeef262187432316ab12fe88d565896b1d0a9a46846a8bfb3b55de03b",
+      "metadata.yaml": "890d0f8cd5668cffb05b55d483e7e0c052e0b822fdea1274d60162873471cfa8",
+      "scripts/pack_data.py": "5154c0103cf63a1c0a18652a7cb425d202f93587e00408f613f255b9d778c227",
+      "scripts/sync_memes.py": "2be7720db057bb6c1cdd7423c6b9e2933c55fa3ebfac36a86bbfe6a0539daba2",
+      "views/slang/_page.json": "ee6abb21b1c7d26d761e02a83e39823e010e72b2879e21d6791e0fa10384fb96",
+      "views/slang/index.html": "ccc7dbcfb5e36427fb7fdc26cba179e376dec34152ecd9a2aa58d5e0ce5feba9"
+    }
+  },
+  "onlineSourceStatus": "GitHub API returned 404 on 2026-10-29; original metadata says author=local and repo=https://cnmeme.wiki; original commit attribution and LICENSE say in1t1a1."
+}

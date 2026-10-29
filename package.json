@@ -1,0 +1,88 @@
+{
+  "name": "cortico-world-memewiki",
+  "version": "1.6.0-cortico.1",
+  "type": "module",
+  "main": "./index.ts",
+  "description": "非官方 Cortico 移植版：梗百科；原作 in1t1a1/astrbot_plugin_memewiki，移植与集成维护 Kpect10086。",
+  "keywords": [
+    "cortico-world"
+  ],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "梗百科 · 非官方移植",
+    "webUiClient": "./dist/webui.js",
+    "describe": "describe.json",
+    "tags": [
+      "experimental",
+      "sensitive-data",
+      "injection-risk",
+      "requires-extension"
+    ]
+  },
+  "author": {
+    "name": "in1t1a1",
+    "url": "https://github.com/in1t1a1"
+  },
+  "contributors": [
+    {
+      "name": "Kpect10086",
+      "url": "https://github.com/Kpect10086",
+      "role": "Cortico port maintainer"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kpect10086/Cortico-MemeWiki.git"
+  },
+  "homepage": "https://github.com/Kpect10086/Cortico-MemeWiki#readme",
+  "bugs": {
+    "url": "https://github.com/Kpect10086/Cortico-MemeWiki/issues"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "files": [
+    "*.html",
+    "*.mjs",
+    "*.mts",
+    "*.py",
+    "*.ts",
+    "CHANGELOG.md",
+    "LICENSE*",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "UPSTREAM_PERMISSIONS.md",
+    "base",
+    "describe.json",
+    "dist",
+    "docs",
+    "native-tools.json",
+    "patches",
+    "scripts",
+    "upstream-provenance.json",
+    "vendor"
+  ],
+  "scripts": {
+    "test": "node scripts/audit-release.mjs",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.web.json --noEmit",
+    "build:web": "node scripts/build-web.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.19.2",
+    "cortico": "0.2.8"
+  },
+  "dependencies": {
+    "cortico-world-private-companion": "github:Kpect10086/Cortico-Private-Companion#v6.7.0-cortico.3"
+  },
+  "maintainers": [
+    {
+      "name": "Kpect10086",
+      "url": "https://github.com/Kpect10086"
+    }
+  ]
+}
